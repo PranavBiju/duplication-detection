@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/landmark_detector_pkg/landmark_detector_pkg.egg-info
+writing ../../build/landmark_detector_pkg/landmark_detector_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/landmark_detector_pkg/landmark_detector_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/landmark_detector_pkg/landmark_detector_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/landmark_detector_pkg/landmark_detector_pkg.egg-info/requires.txt
+writing top-level names to ../../build/landmark_detector_pkg/landmark_detector_pkg.egg-info/top_level.txt
+writing manifest file '../../build/landmark_detector_pkg/landmark_detector_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/landmark_detector_pkg/landmark_detector_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/landmark_detector_pkg/landmark_detector_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/pranav/ros2_ws/build/landmark_detector_pkg/build
+creating /home/pranav/ros2_ws/build/landmark_detector_pkg/build/lib
+creating /home/pranav/ros2_ws/build/landmark_detector_pkg/build/lib/landmark_detector_pkg
+copying landmark_detector_pkg/__init__.py -> /home/pranav/ros2_ws/build/landmark_detector_pkg/build/lib/landmark_detector_pkg
+copying landmark_detector_pkg/landmark_detector_node.py -> /home/pranav/ros2_ws/build/landmark_detector_pkg/build/lib/landmark_detector_pkg
+running install
+running install_lib
+creating /home/pranav/ros2_ws/install/landmark_detector_pkg/lib/python3.8/site-packages/landmark_detector_pkg
+copying /home/pranav/ros2_ws/build/landmark_detector_pkg/build/lib/landmark_detector_pkg/__init__.py -> /home/pranav/ros2_ws/install/landmark_detector_pkg/lib/python3.8/site-packages/landmark_detector_pkg
+copying /home/pranav/ros2_ws/build/landmark_detector_pkg/build/lib/landmark_detector_pkg/landmark_detector_node.py -> /home/pranav/ros2_ws/install/landmark_detector_pkg/lib/python3.8/site-packages/landmark_detector_pkg
+byte-compiling /home/pranav/ros2_ws/install/landmark_detector_pkg/lib/python3.8/site-packages/landmark_detector_pkg/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/pranav/ros2_ws/install/landmark_detector_pkg/lib/python3.8/site-packages/landmark_detector_pkg/landmark_detector_node.py to landmark_detector_node.cpython-38.pyc
+running install_data
+creating /home/pranav/ros2_ws/install/landmark_detector_pkg/share/ament_index
+creating /home/pranav/ros2_ws/install/landmark_detector_pkg/share/ament_index/resource_index
+creating /home/pranav/ros2_ws/install/landmark_detector_pkg/share/ament_index/resource_index/packages
+copying resource/landmark_detector_pkg -> /home/pranav/ros2_ws/install/landmark_detector_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/pranav/ros2_ws/install/landmark_detector_pkg/share/landmark_detector_pkg
+running install_egg_info
+Copying ../../build/landmark_detector_pkg/landmark_detector_pkg.egg-info to /home/pranav/ros2_ws/install/landmark_detector_pkg/lib/python3.8/site-packages/landmark_detector_pkg-0.0.0-py3.8.egg-info
+running install_scripts
+Installing landmark_detector script to /home/pranav/ros2_ws/install/landmark_detector_pkg/lib/landmark_detector_pkg
+writing list of installed files to '/home/pranav/ros2_ws/build/landmark_detector_pkg/install.log'

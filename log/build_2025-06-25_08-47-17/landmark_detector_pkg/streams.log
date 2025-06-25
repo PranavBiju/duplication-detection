@@ -1,0 +1,21 @@
+[0.300s] Invoking command in '/home/pranav/ros2_ws/src/landmark_detector_pkg': PYTHONPATH=/home/pranav/ros2_ws/build/landmark_detector_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranav/ros2_ws/install/landmark_detector_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/landmark_detector_pkg build --build-base /home/pranav/ros2_ws/build/landmark_detector_pkg/build install --record /home/pranav/ros2_ws/build/landmark_detector_pkg/install.log --install-scripts $base/lib/landmark_detector_pkg --single-version-externally-managed install_data
+[0.383s] running egg_info
+[0.383s] writing ../../build/landmark_detector_pkg/landmark_detector_pkg.egg-info/PKG-INFO
+[0.384s] writing dependency_links to ../../build/landmark_detector_pkg/landmark_detector_pkg.egg-info/dependency_links.txt
+[0.384s] writing entry points to ../../build/landmark_detector_pkg/landmark_detector_pkg.egg-info/entry_points.txt
+[0.384s] writing requirements to ../../build/landmark_detector_pkg/landmark_detector_pkg.egg-info/requires.txt
+[0.384s] writing top-level names to ../../build/landmark_detector_pkg/landmark_detector_pkg.egg-info/top_level.txt
+[0.399s] reading manifest file '../../build/landmark_detector_pkg/landmark_detector_pkg.egg-info/SOURCES.txt'
+[0.400s] writing manifest file '../../build/landmark_detector_pkg/landmark_detector_pkg.egg-info/SOURCES.txt'
+[0.400s] running build
+[0.400s] running build_py
+[0.401s] running install
+[0.401s] running install_lib
+[0.402s] running install_data
+[0.402s] running install_egg_info
+[0.403s] removing '/home/pranav/ros2_ws/install/landmark_detector_pkg/lib/python3.8/site-packages/landmark_detector_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[0.403s] Copying ../../build/landmark_detector_pkg/landmark_detector_pkg.egg-info to /home/pranav/ros2_ws/install/landmark_detector_pkg/lib/python3.8/site-packages/landmark_detector_pkg-0.0.0-py3.8.egg-info
+[0.404s] running install_scripts
+[0.411s] Installing landmark_detector script to /home/pranav/ros2_ws/install/landmark_detector_pkg/lib/landmark_detector_pkg
+[0.411s] writing list of installed files to '/home/pranav/ros2_ws/build/landmark_detector_pkg/install.log'
+[0.420s] Invoked command in '/home/pranav/ros2_ws/src/landmark_detector_pkg' returned '0': PYTHONPATH=/home/pranav/ros2_ws/build/landmark_detector_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranav/ros2_ws/install/landmark_detector_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/landmark_detector_pkg build --build-base /home/pranav/ros2_ws/build/landmark_detector_pkg/build install --record /home/pranav/ros2_ws/build/landmark_detector_pkg/install.log --install-scripts $base/lib/landmark_detector_pkg --single-version-externally-managed install_data

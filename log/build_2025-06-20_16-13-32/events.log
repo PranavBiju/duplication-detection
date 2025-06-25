@@ -1,0 +1,307 @@
+[0.000000] (-) TimerEvent: {}
+[0.000084] (-) JobUnselected: {'identifier': 'landmark_detector_pkg'}
+[0.000469] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.000489] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.000576] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.000595] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.000769] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.000811] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.000824] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.000833] (turtlebot3_node) JobQueued: {'identifier': 'turtlebot3_node', 'dependencies': OrderedDict()}
+[0.000848] (turtlebot3_node) JobStarted: {'identifier': 'turtlebot3_node'}
+[0.006225] (turtlebot3_node) JobProgress: {'identifier': 'turtlebot3_node', 'progress': 'cmake'}
+[0.007212] (turtlebot3_node) JobProgress: {'identifier': 'turtlebot3_node', 'progress': 'build'}
+[0.007239] (turtlebot3_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pranav/ros2_ws/build/turtlebot3_node', '--', '-j4', '-l4'], 'cwd': '/home/pranav/ros2_ws/build/turtlebot3_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/pranav/ros2_ws/install/husarion_ugv_description/share'), ('USER', 'pranav'), ('SSH_AGENT_PID', '1600'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pranav/ros2_ws/install/husarion_ugv_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/pranav'), ('OLDPWD', '/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1493'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pranav/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'pranav'), ('JOURNAL_STREAM', '9:39747'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pranav'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/pranav/ros2_ws/install/husarion_ugv_description/share'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/pranav/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/pranav:@/tmp/.ICE-unix/1637,unix/pranav:/tmp/.ICE-unix/1637'), ('INVOCATION_ID', '0a468a1da8544204a9be41566e69d8a7'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/39f7f4ea_88d1_4c77_b83c_9c6ba861c355'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.162'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pranav/ros2_ws/install/landmark_detector_pkg:/home/pranav/ros2_ws/install/husarion_ugv_msgs:/home/pranav/ros2_ws/install/husarion_ugv_description:/home/pranav/ros2_ws/install/husarion_ugv_bringup:/home/pranav/ros2_ws/install/husarion_ugv:/home/pranav/ros2_ws/install/erc:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/pranav/ros2_ws/install/husarion_ugv_description/share'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pranav/ros2_ws/build/turtlebot3_node'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pranav/ros2_ws/install/landmark_detector_pkg/lib/python3.8/site-packages:/home/pranav/ros2_ws/install/husarion_ugv_msgs/lib/python3.8/site-packages:/home/pranav/ros2_ws/install/erc/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/pranav/ros2_ws/install/husarion_ugv_msgs:/home/pranav/ros2_ws/install/husarion_ugv_description:/home/pranav/ros2_ws/install/husarion_ugv_bringup:/home/pranav/ros2_ws/install/husarion_ugv:/home/pranav/ros2_ws/install/landmark_detector_pkg:/home/pranav/ros2_ws/install/erc:/opt/ros/foxy')]), 'shell': False}
+[0.045299] (turtlebot3_node) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlebot3_node_lib\x1b[0m\n'}
+[0.071325] (turtlebot3_node) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o\x1b[0m\n'}
+[0.071432] (turtlebot3_node) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o\x1b[0m\n'}
+[0.099875] (-) TimerEvent: {}
+[0.200168] (-) TimerEvent: {}
+[0.300456] (-) TimerEvent: {}
+[0.400699] (-) TimerEvent: {}
+[0.511704] (-) TimerEvent: {}
+[0.612785] (-) TimerEvent: {}
+[0.713108] (-) TimerEvent: {}
+[0.814112] (-) TimerEvent: {}
+[0.914660] (-) TimerEvent: {}
+[0.944093] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/src/odometry.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Krobotis::turtlebot3::Odometry::Odometry(std::shared_ptr<rclcpp::Node>&, double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.944557] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/src/odometry.cpp:40:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::declare_parameter<std::string>(const char [18])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.944598] (turtlebot3_node) StderrLine: {'line': b'   40 |   nh_->declare_parameter<std::string>("odometry.frame_id"\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[0.944623] (turtlebot3_node) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.944645] (turtlebot3_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:1224\x1b[m\x1b[K,\n'}
+[0.944668] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[0.944706] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[0.944738] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[0.944780] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/message_filters/subscriber.h:38\x1b[m\x1b[K,\n'}
+[0.944805] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/odometry.hpp:20\x1b[m\x1b[K,\n'}
+[0.944827] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/src/odometry.cpp:17\x1b[m\x1b[K:\n'}
+[0.944848] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = std::__cxx11::basic_string<char>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.944890] (turtlebot3_node) StderrLine: {'line': b'  157 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::declare_parameter(\n'}
+[0.944923] (turtlebot3_node) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[0.944960] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[0.944987] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/src/odometry.cpp:41:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::declare_parameter<std::string>(const char [24])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.945030] (turtlebot3_node) StderrLine: {'line': b'   41 |   nh_->declare_parameter<std::string>("odometry.child_frame_id"\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[0.945053] (turtlebot3_node) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.945078] (turtlebot3_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:1224\x1b[m\x1b[K,\n'}
+[0.945114] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[0.945138] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[0.945160] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[0.945197] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/message_filters/subscriber.h:38\x1b[m\x1b[K,\n'}
+[0.945224] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/odometry.hpp:20\x1b[m\x1b[K,\n'}
+[0.945256] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/src/odometry.cpp:17\x1b[m\x1b[K:\n'}
+[0.945279] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = std::__cxx11::basic_string<char>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.945325] (turtlebot3_node) StderrLine: {'line': b'  157 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::declare_parameter(\n'}
+[0.945347] (turtlebot3_node) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[0.945368] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[0.945399] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/src/odometry.cpp:42:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::declare_parameter<std::string>(const char [10])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.945433] (turtlebot3_node) StderrLine: {'line': b'   42 |   nh_->declare_parameter<std::string>("namespace"\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[0.945456] (turtlebot3_node) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.945477] (turtlebot3_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:1224\x1b[m\x1b[K,\n'}
+[0.945511] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[0.945536] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[0.945569] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[0.945598] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/message_filters/subscriber.h:38\x1b[m\x1b[K,\n'}
+[0.945620] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/odometry.hpp:20\x1b[m\x1b[K,\n'}
+[0.945650] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/src/odometry.cpp:17\x1b[m\x1b[K:\n'}
+[0.945673] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = std::__cxx11::basic_string<char>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.945703] (turtlebot3_node) StderrLine: {'line': b'  157 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::declare_parameter(\n'}
+[0.945728] (turtlebot3_node) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[0.945748] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[0.945779] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/src/odometry.cpp:44:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::declare_parameter<bool>(const char [17])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.945810] (turtlebot3_node) StderrLine: {'line': b'   44 |   nh_->declare_parameter<bool>("odometry.use_imu"\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[0.945834] (turtlebot3_node) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.945855] (turtlebot3_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:1224\x1b[m\x1b[K,\n'}
+[0.945878] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[0.945898] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[0.945919] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[0.945952] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/message_filters/subscriber.h:38\x1b[m\x1b[K,\n'}
+[0.945973] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/odometry.hpp:20\x1b[m\x1b[K,\n'}
+[0.945994] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/src/odometry.cpp:17\x1b[m\x1b[K:\n'}
+[0.946197] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = bool; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.946231] (turtlebot3_node) StderrLine: {'line': b'  157 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::declare_parameter(\n'}
+[0.946265] (turtlebot3_node) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[0.946290] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[0.946312] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/src/odometry.cpp:45:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::declare_parameter<bool>(const char [20])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.946338] (turtlebot3_node) StderrLine: {'line': b'   45 |   nh_->declare_parameter<bool>("odometry.publish_tf"\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[0.946360] (turtlebot3_node) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.946382] (turtlebot3_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:1224\x1b[m\x1b[K,\n'}
+[0.946404] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[0.946427] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[0.946448] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[0.946470] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/message_filters/subscriber.h:38\x1b[m\x1b[K,\n'}
+[0.946492] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/odometry.hpp:20\x1b[m\x1b[K,\n'}
+[0.946515] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/src/odometry.cpp:17\x1b[m\x1b[K:\n'}
+[0.946537] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = bool; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.946566] (turtlebot3_node) StderrLine: {'line': b'  157 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::declare_parameter(\n'}
+[0.946588] (turtlebot3_node) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[0.946620] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.015183] (-) TimerEvent: {}
+[1.116389] (-) TimerEvent: {}
+[1.142907] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid robotis::turtlebot3::TurtleBot3::init_dynamixel_sdk_wrapper(const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.143075] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:56:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krobotis::turtlebot3::TurtleBot3::declare_parameter<int>(const char [10])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.143140] (turtlebot3_node) StderrLine: {'line': b'   56 |   this->declare_parameter<int>("opencr.id"\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.143166] (turtlebot3_node) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.143187] (turtlebot3_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:1224\x1b[m\x1b[K,\n'}
+[1.143209] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.143231] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.143252] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.143275] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:36\x1b[m\x1b[K,\n'}
+[1.143304] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/turtlebot3.hpp:20\x1b[m\x1b[K,\n'}
+[1.143325] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:17\x1b[m\x1b[K:\n'}
+[1.143345] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = int; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.143369] (turtlebot3_node) StderrLine: {'line': b'  157 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::declare_parameter(\n'}
+[1.143403] (turtlebot3_node) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.143425] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.143447] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:57:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krobotis::turtlebot3::TurtleBot3::declare_parameter<int>(const char [17])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.143468] (turtlebot3_node) StderrLine: {'line': b'   57 |   this->declare_parameter<int>("opencr.baud_rate"\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.143498] (turtlebot3_node) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.143528] (turtlebot3_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:1224\x1b[m\x1b[K,\n'}
+[1.143554] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.143573] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.143593] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.143613] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:36\x1b[m\x1b[K,\n'}
+[1.143633] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/turtlebot3.hpp:20\x1b[m\x1b[K,\n'}
+[1.143653] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:17\x1b[m\x1b[K:\n'}
+[1.143673] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = int; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.143698] (turtlebot3_node) StderrLine: {'line': b'  157 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::declare_parameter(\n'}
+[1.143718] (turtlebot3_node) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.143737] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.143759] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:58:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krobotis::turtlebot3::TurtleBot3::declare_parameter<float>(const char [24])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.143779] (turtlebot3_node) StderrLine: {'line': b'   58 |   this->declare_parameter<float>("opencr.protocol_version"\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.143799] (turtlebot3_node) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.143819] (turtlebot3_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:1224\x1b[m\x1b[K,\n'}
+[1.143838] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.143858] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.143878] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.143898] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:36\x1b[m\x1b[K,\n'}
+[1.143918] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/turtlebot3.hpp:20\x1b[m\x1b[K,\n'}
+[1.143937] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:17\x1b[m\x1b[K:\n'}
+[1.143959] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = float; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.143980] (turtlebot3_node) StderrLine: {'line': b'  157 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::declare_parameter(\n'}
+[1.144000] (turtlebot3_node) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.144019] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.144039] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:59:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krobotis::turtlebot3::TurtleBot3::declare_parameter<std::string>(const char [10])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.144060] (turtlebot3_node) StderrLine: {'line': b'   59 |   this->declare_parameter<std::string>("namespace"\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.144080] (turtlebot3_node) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.144100] (turtlebot3_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:1224\x1b[m\x1b[K,\n'}
+[1.144119] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.144139] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.144158] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.144189] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:36\x1b[m\x1b[K,\n'}
+[1.144210] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/turtlebot3.hpp:20\x1b[m\x1b[K,\n'}
+[1.144230] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:17\x1b[m\x1b[K:\n'}
+[1.144250] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = std::__cxx11::basic_string<char>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.144273] (turtlebot3_node) StderrLine: {'line': b'  157 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::declare_parameter(\n'}
+[1.144293] (turtlebot3_node) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.144312] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.145117] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid robotis::turtlebot3::TurtleBot3::add_motors()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.145174] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:117:72:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krobotis::turtlebot3::TurtleBot3::declare_parameter<float>(const char [37])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.145207] (turtlebot3_node) StderrLine: {'line': b'  117 |   this->declare_parameter<float>("motors.profile_acceleration_constant"\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.145230] (turtlebot3_node) StderrLine: {'line': b'      |                                                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.145260] (turtlebot3_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:1224\x1b[m\x1b[K,\n'}
+[1.145300] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.145342] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.145363] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.145384] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:36\x1b[m\x1b[K,\n'}
+[1.145419] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/turtlebot3.hpp:20\x1b[m\x1b[K,\n'}
+[1.145441] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:17\x1b[m\x1b[K:\n'}
+[1.145462] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = float; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.145486] (turtlebot3_node) StderrLine: {'line': b'  157 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::declare_parameter(\n'}
+[1.145507] (turtlebot3_node) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.145527] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.145568] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:118:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krobotis::turtlebot3::TurtleBot3::declare_parameter<float>(const char [28])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.145857] (turtlebot3_node) StderrLine: {'line': b'  118 |   this->declare_parameter<float>("motors.profile_acceleration"\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.145882] (turtlebot3_node) StderrLine: {'line': b'      |                                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.145903] (turtlebot3_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:1224\x1b[m\x1b[K,\n'}
+[1.145924] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.145945] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.145971] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.146082] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:36\x1b[m\x1b[K,\n'}
+[1.146125] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/turtlebot3.hpp:20\x1b[m\x1b[K,\n'}
+[1.146153] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:17\x1b[m\x1b[K:\n'}
+[1.146174] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = float; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.146196] (turtlebot3_node) StderrLine: {'line': b'  157 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::declare_parameter(\n'}
+[1.146216] (turtlebot3_node) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.146237] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.146259] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid robotis::turtlebot3::TurtleBot3::add_wheels()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.146280] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:135:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krobotis::turtlebot3::TurtleBot3::declare_parameter<float>(const char [18])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.146301] (turtlebot3_node) StderrLine: {'line': b'  135 |   this->declare_parameter<float>("wheels.separation"\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.146321] (turtlebot3_node) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.146342] (turtlebot3_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:1224\x1b[m\x1b[K,\n'}
+[1.146363] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.146383] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.146406] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.146439] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:36\x1b[m\x1b[K,\n'}
+[1.146462] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/turtlebot3.hpp:20\x1b[m\x1b[K,\n'}
+[1.146485] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:17\x1b[m\x1b[K:\n'}
+[1.146505] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = float; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.146527] (turtlebot3_node) StderrLine: {'line': b'  157 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::declare_parameter(\n'}
+[1.146564] (turtlebot3_node) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.146585] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.146609] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:136:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krobotis::turtlebot3::TurtleBot3::declare_parameter<float>(const char [14])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.146639] (turtlebot3_node) StderrLine: {'line': b'  136 |   this->declare_parameter<float>("wheels.radius"\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.146660] (turtlebot3_node) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.146681] (turtlebot3_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:1224\x1b[m\x1b[K,\n'}
+[1.146702] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.146722] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.146742] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.146763] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:36\x1b[m\x1b[K,\n'}
+[1.146783] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/turtlebot3.hpp:20\x1b[m\x1b[K,\n'}
+[1.146803] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:17\x1b[m\x1b[K:\n'}
+[1.146825] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = float; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.146847] (turtlebot3_node) StderrLine: {'line': b'  157 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::declare_parameter(\n'}
+[1.146878] (turtlebot3_node) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.146899] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.146921] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid robotis::turtlebot3::TurtleBot3::add_sensors()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.146942] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:152:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krobotis::turtlebot3::TurtleBot3::declare_parameter<int>(const char [17])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.146963] (turtlebot3_node) StderrLine: {'line': b'  152 |   this->declare_parameter<int>("sensors.bumper_1"\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.146983] (turtlebot3_node) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.147003] (turtlebot3_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:1224\x1b[m\x1b[K,\n'}
+[1.147025] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.147045] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.147066] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.147086] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:36\x1b[m\x1b[K,\n'}
+[1.147106] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/turtlebot3.hpp:20\x1b[m\x1b[K,\n'}
+[1.147127] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:17\x1b[m\x1b[K:\n'}
+[1.147147] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = int; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.147181] (turtlebot3_node) StderrLine: {'line': b'  157 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::declare_parameter(\n'}
+[1.147202] (turtlebot3_node) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.147235] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.147256] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:153:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krobotis::turtlebot3::TurtleBot3::declare_parameter<int>(const char [17])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.147278] (turtlebot3_node) StderrLine: {'line': b'  153 |   this->declare_parameter<int>("sensors.bumper_2"\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.147298] (turtlebot3_node) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.147318] (turtlebot3_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:1224\x1b[m\x1b[K,\n'}
+[1.147339] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.147359] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.147380] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.147401] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:36\x1b[m\x1b[K,\n'}
+[1.147421] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/turtlebot3.hpp:20\x1b[m\x1b[K,\n'}
+[1.147442] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:17\x1b[m\x1b[K:\n'}
+[1.147462] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = int; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.147509] (turtlebot3_node) StderrLine: {'line': b'  157 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::declare_parameter(\n'}
+[1.147530] (turtlebot3_node) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.147550] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.147571] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:154:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krobotis::turtlebot3::TurtleBot3::declare_parameter<int>(const char [21])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.147591] (turtlebot3_node) StderrLine: {'line': b'  154 |   this->declare_parameter<int>("sensors.illumination"\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.147614] (turtlebot3_node) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.147634] (turtlebot3_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:1224\x1b[m\x1b[K,\n'}
+[1.147654] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.147675] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.147696] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.147716] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:36\x1b[m\x1b[K,\n'}
+[1.147746] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/turtlebot3.hpp:20\x1b[m\x1b[K,\n'}
+[1.147769] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:17\x1b[m\x1b[K:\n'}
+[1.147791] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = int; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.147822] (turtlebot3_node) StderrLine: {'line': b'  157 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::declare_parameter(\n'}
+[1.147844] (turtlebot3_node) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.147864] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.147885] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:155:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krobotis::turtlebot3::TurtleBot3::declare_parameter<int>(const char [11])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.147920] (turtlebot3_node) StderrLine: {'line': b'  155 |   this->declare_parameter<int>("sensors.ir"\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.147942] (turtlebot3_node) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.147964] (turtlebot3_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:1224\x1b[m\x1b[K,\n'}
+[1.147986] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.148007] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.148027] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.148048] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:36\x1b[m\x1b[K,\n'}
+[1.148068] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/turtlebot3.hpp:20\x1b[m\x1b[K,\n'}
+[1.148089] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:17\x1b[m\x1b[K:\n'}
+[1.148109] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = int; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.148131] (turtlebot3_node) StderrLine: {'line': b'  157 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::declare_parameter(\n'}
+[1.148152] (turtlebot3_node) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.148172] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.148193] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:156:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krobotis::turtlebot3::TurtleBot3::declare_parameter<int>(const char [14])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.148223] (turtlebot3_node) StderrLine: {'line': b'  156 |   this->declare_parameter<int>("sensors.sonar"\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.148249] (turtlebot3_node) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.148280] (turtlebot3_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:1224\x1b[m\x1b[K,\n'}
+[1.148301] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.148322] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.148343] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.148363] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:36\x1b[m\x1b[K,\n'}
+[1.148383] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/turtlebot3.hpp:20\x1b[m\x1b[K,\n'}
+[1.148403] (turtlebot3_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pranav/ros2_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:17\x1b[m\x1b[K:\n'}
+[1.148423] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = int; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.148534] (turtlebot3_node) StderrLine: {'line': b'  157 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::declare_parameter(\n'}
+[1.148560] (turtlebot3_node) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.148581] (turtlebot3_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.216484] (-) TimerEvent: {}
+[1.317361] (-) TimerEvent: {}
+[1.418097] (-) TimerEvent: {}
+[1.518346] (-) TimerEvent: {}
+[1.618595] (-) TimerEvent: {}
+[1.719128] (-) TimerEvent: {}
+[1.819373] (-) TimerEvent: {}
+[1.919661] (-) TimerEvent: {}
+[2.020365] (-) TimerEvent: {}
+[2.120618] (-) TimerEvent: {}
+[2.221064] (-) TimerEvent: {}
+[2.321859] (-) TimerEvent: {}
+[2.342479] (turtlebot3_node) StderrLine: {'line': b'make[2]: *** [CMakeFiles/turtlebot3_node_lib.dir/build.make:141: CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o] Error 1\n'}
+[2.342604] (turtlebot3_node) StderrLine: {'line': b'make[2]: *** Waiting for unfinished jobs....\n'}
+[2.421949] (-) TimerEvent: {}
+[2.512914] (turtlebot3_node) StderrLine: {'line': b'make[2]: *** [CMakeFiles/turtlebot3_node_lib.dir/build.make:128: CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o] Error 1\n'}
+[2.513206] (turtlebot3_node) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/turtlebot3_node_lib.dir/all] Error 2\n'}
+[2.513278] (turtlebot3_node) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[2.514840] (turtlebot3_node) CommandEnded: {'returncode': 2}
+[2.520068] (turtlebot3_node) JobEnded: {'identifier': 'turtlebot3_node', 'rc': 2}
+[2.522017] (-) TimerEvent: {}
+[2.531231] (-) EventReactorShutdown: {}

@@ -1,0 +1,3 @@
+[35m[1mScanning dependencies of target turtlebot3_node_lib[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o[0m

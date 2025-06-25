@@ -1,0 +1,3 @@
+[console_scripts]
+landmark_detector = landmark_detector_pkg.landmark_detector_node:main
+

@@ -35,6 +35,7 @@ def image_callback(rgb_image, depth_image):
     for det in results[0].boxes:
         x1, y1, x2, y2 = map(int, det.xyxy[0].tolist())
         class_id = int(det.cls[0])
+        conf = float(det.conf[0])
         label = model.names[class_id]
 
         u, v = (x1 + x2) // 2, (y1 + y2) // 2
